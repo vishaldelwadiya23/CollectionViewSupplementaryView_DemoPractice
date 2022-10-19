@@ -13,6 +13,8 @@
 		0EAD6341290025FA0036DC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAD633F290025FA0036DC19 /* Main.storyboard */; };
 		0EAD6343290026210036DC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAD6342290026210036DC19 /* Assets.xcassets */; };
 		0EAD6346290026210036DC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAD6344290026210036DC19 /* LaunchScreen.storyboard */; };
+		0EAD634F290027790036DC19 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD634E290027790036DC19 /* myCollectionViewCell.swift */; };
+		0EAD6352290027B20036DC19 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD6351290027B20036DC19 /* CollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0EAD6342290026210036DC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAD6345290026210036DC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EAD6347290026210036DC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAD634E290027790036DC19 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		0EAD6351290027B20036DC19 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				0EAD6339290025FA0036DC19 /* AppDelegate.swift */,
 				0EAD633B290025FA0036DC19 /* SceneDelegate.swift */,
+				0EAD634E290027790036DC19 /* myCollectionViewCell.swift */,
+				0EAD6351290027B20036DC19 /* CollectionReusableView.swift */,
 				0EAD633D290025FA0036DC19 /* ViewController.swift */,
 				0EAD633F290025FA0036DC19 /* Main.storyboard */,
 				0EAD6342290026210036DC19 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				0EAD633E290025FA0036DC19 /* ViewController.swift in Sources */,
 				0EAD633A290025FA0036DC19 /* AppDelegate.swift in Sources */,
+				0EAD634F290027790036DC19 /* myCollectionViewCell.swift in Sources */,
+				0EAD6352290027B20036DC19 /* CollectionReusableView.swift in Sources */,
 				0EAD633C290025FA0036DC19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
